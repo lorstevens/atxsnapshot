@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ATX Snapshot</title>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script src="./assets/javascript/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="./assets/image/city.mp4" type="video/mp4">
+    </video>
+    <div class="logo">
+        <h1>City Snapshot</h1>
+    </div>
+    <div class="ui basic modal">
+        <div class="content">
+            <p>Enter your address to get a snapshot of the location</p>
+        </div>
+        <div class="actions">
+            <div class="ui basic cancel inverted button">
+                 Close
+            </div>
+
+        </div>
+    </div>
+    <div class="ui inverted segment">
+        <div class="ui inverted form">
+            <div class="two fields">
+                <div class="field">
+                    <label>Address</label>
+                    <input placeholder="Address" type="text">
+                </div>
+                <div class="field">
+                    <label>Address 2</label>
+                    <input placeholder="Apt #" type="text">
+                </div>
+            </div>
+            <div class="three fields">
+                <div class="field">
+                    <label>City</label>
+                    <input placeholder="Austin" type="text">
+                </div>
+                <div class="field">
+                    <label>State</label>
+                    <input placeholder="TX" type="text">
+                </div>
+                <div class="field">
+                    <label>Zip Code</label>
+                    <input placeholder="78751" type="text">
+                </div>
+            </div>
+        </div>
+        <div class="ui submit button">Submit</div>
+    </div>
+    </div>
+</body>
+
+</html>
