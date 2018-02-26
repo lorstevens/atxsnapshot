@@ -1,9 +1,21 @@
+
+body{
+    background-image: url("../image/cloudy.png");
+}
+
 .ui.segment{
 	margin-right: 30%;
 	margin-left: 30%;
-	margin-top: 10%;
+	margin-top: 20%;
+
 
 }
+
+.ui.inverted.segment{
+   /* margin-top: 2%;*/
+    margin-bottom: 3%
+}
+
 
 #myVideo {
     position: fixed;
@@ -20,6 +32,7 @@
     color: #f1f1f1;
     /*width: 100%;*/
     padding: 20px;
+    z-index: 1;
 }
 
 .container {
@@ -33,9 +46,9 @@
 #pictures{
     padding-top: 4%
     padding-bottom: 4%;
-      margin: auto;
+    margin: auto;
     width: 50%;
-    padding: 10px;
+   /* padding: 10px;*/
 
 }
 
@@ -47,19 +60,35 @@
     margin-right: auto;
 }
 
+#streetImage{
+    padding-top: 10%
+}
 
 h1{
 	font-family: 'Special Elite', cursive;
 	color: white;
 }
 
+.imageText{
+text-align: center;
+font-family: 'Special Elite', cursive;
+color: white;
+margin-bottom: 1%;
+margin-top: 4%;
+}
+
+#searchAgain{
+/*padding-top: 5%;
+padding-bottom: -5%;*/
+margin-bottom: -250px;
+}
 
 
-    .image:hover
-    {
-box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-            -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-            -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-            -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
 
-        };
+.image:hover
+{
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+};

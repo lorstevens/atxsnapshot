@@ -1,7 +1,7 @@
 $(document).ready(function()
 {
 
-
+$(".imageText").hide();
       
 	//global variables
 	var cityPlaceId;
@@ -34,6 +34,7 @@ $("#address_submit").click(function()
 {
 
 	event.preventDefault();
+	$(".imageText").show();
 
 
 	userAddress.street1 = $("#address_street1").val().trim().replace(/ /g, "+");
