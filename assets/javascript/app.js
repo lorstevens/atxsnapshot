@@ -166,10 +166,15 @@ $("#myVideo").hide();
 
 
 
+$(function() {
+    $(".logo").click(function() {
+        $('.ui.basic.modal')
+            .modal('show');
+        })
+    });
 
-// $(function() {
-//     $(".logo").click(function() {
-//         $('.ui.basic.modal')
-//             .modal('show');
-//     });
+
+
+
+
 // });
