@@ -75,6 +75,7 @@ $("#address_submit").click(function()
 			
 		$("#streetview_results").append(streetViewImage);
         $("#streetview_results").addClass("streetView");
+        $("#streetview_results").transition("pulse");
 
 
 	})	
@@ -113,13 +114,17 @@ $("#address_submit").click(function()
             	addImg.attr("src", photoURL);
 
 
-            	addImg.addClass("col s12 m4 l4");
-            	addImg.addClass("row");
+            	// addImg.addClass("");
+            	addImg.addClass("image");
+            	addImg.addClass("column");
             	// addImg.addClass("materialboxed")
 
             	$("#pictures").append(addImg);
-            	$("#pictures").addClass("row");
-            	$("#pictures").addClass("col s12 m4 l4");
+            	$("#pictures").addClass("ui grid");
+            	$("#pictures").addClass("three column row");
+            	$("#pictures").addClass("column");
+            	
+            	// $("#pictures").addClass("col s12 m4 l4");
             	// $("#pictures").addClass("materialboxed");
             }
           });
@@ -147,6 +152,7 @@ initMap();
 
 
 $("#myVideo").hide();
+
 })
 
 
@@ -166,5 +172,4 @@ $("#myVideo").hide();
 //         $('.ui.basic.modal')
 //             .modal('show');
 //     });
-
 // });

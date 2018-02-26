@@ -22,7 +22,7 @@
     padding: 20px;
 }
 
-.wrapper2 {
+.container {
    /* position: fixed;*/
     top: 0;
     background: rgba(0, 0, 0, 0);
@@ -30,7 +30,36 @@
    
 }
 
+#pictures{
+    padding-top: 4%
+    padding-bottom: 4%;
+      margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+
+.streetView{
+    border-radius: 5px;
+    margin: 20px auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 h1{
 	font-family: 'Special Elite', cursive;
 	color: white;
 }
+
+
+
+    .image:hover
+    {
+box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+            -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+            -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+            -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+
+        };
